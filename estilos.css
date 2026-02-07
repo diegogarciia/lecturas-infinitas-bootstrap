@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Itallianno&family=Radley:ital@0;1&display=swap');
+
+:root {
+    /* Colores primarios */
+    --color-chocolate: #593831;
+    --color-crema-claro: #f9f3ec;
+    --color-petroleo: #4F7B8C;
+
+    /* Colores secundarios */
+    --color-blanco: #fffdfb;
+    --color-arena: #D9BCA3;
+    --color-negro: #000000;
+
+    /* Tipografías */
+    --font-titulos: 'Itallianno', cursive;
+    --font-cuerpo: 'Radley', serif;
+
+    /* Tamaños de fuentes */
+    --fs-h1: 34px;      /* Rango 32-36px */
+    --fs-h2-h3: 26px;   /* Rango 24-28px */
+    --fs-parrafo: 17px; /* Rango 16-18px */
+    --fs-secundario: 15px; /* Rango 14-16px */
+    --fs-botones: 16px; 
+}
