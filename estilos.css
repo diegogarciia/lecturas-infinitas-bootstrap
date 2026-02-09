@@ -22,3 +22,31 @@
     --fs-secundario: 15px; /* Rango 14-16px */
     --fs-botones: 16px; 
 }
+
+body {
+    background-color: var(--color-blanco);
+    color: var(--color-chocolate);
+    font-family: var(--font-cuerpo);
+    font-size: var(--fs-parrafo);
+}
+
+h1 {
+    font-family: var(--font-titulos);
+    font-size: var(--fs-h1);
+    color: var(--color-petroleo);
+}
+
+.navbar {
+    background-color: var(--color-petroleo);
+}
+
+.btn-primary {
+    background-color: var(--color-chocolate);
+    border-color: var(--color-chocolate);
+    font-size: var(--fs-botones);
+}
+
+footer {
+    background-color: var(--color-chocolate);
+    color: var(--color-crema-claro);
+}
