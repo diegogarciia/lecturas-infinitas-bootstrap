@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturas Infinitas - Catálogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../estilos.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Lecturas Infinitas</a>
+            <form class="d-flex me-auto" role="search">
+                <input class="form-control form-control-sm me-2" type="search" placeholder="Buscar..." aria-label="Search">
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mi-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mi-menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="./catalogo.html">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./eventos.html">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold" href="./registro.html">Acceso</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="row">
+            
+            <aside class="col-lg-3 mb-4">
+                <div class="p-3 bg-light border rounded sticky-top" style="top: 20px; z-index: 1;">
+                    <h4 class="h5 mb-3">Categorías</h4>
+                    <div class="list-group list-group-flush">
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Novela</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Poesía</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Infantil</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Cómic</a>
+                        <a href="#" class="list-group-item list-group-item-action bg-light">Ensayo</a>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="col-lg-9">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imgs/libro1.webp" class="card-img-top" alt="Producto 1">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">LA CIUDAD DE LAS LUCES MUERTAS</h5>
+                                <p class="card-text mb-1">David Uclés</p>
+                                <p class="card-text fw-bold text-primary">19,90 €</p>
+                                <p class="card-text small text-muted">Una novela fascinante sobre la memoria y la historia.</p>
+                                
+                                <div class="accordion accordion-flush" id="acordeonP1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infoP1">
+                                                Más información
+                                            </button>
+                                        </h2>
+                                        <div id="infoP1" class="accordion-collapse collapse" data-bs-parent="#acordeonP1">
+                                            <div class="accordion-body small">
+                                                <span>Editorial: Ediciones Destino</span><br>
+                                                <span>ISBN: 9788423369225</span><br>
+                                                <span>Páginas: 288</span><br>
+                                                <span>Tapa dura</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imgs/libro2.webp" class="card-img-top" alt="Producto 2">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">COMERÁS FLORES</h5>
+                                <p class="card-text mb-1">Lucía Solia Sobral</p>
+                                <p class="card-text fw-bold text-primary">18,50 €</p>
+                                <p class="card-text small text-muted">Un relato conmovedor sobre la familia y las raíces.</p>
+
+                                <div class="accordion accordion-flush" id="acordeonP2">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infoP2">
+                                                Más información
+                                            </button>
+                                        </h2>
+                                        <div id="infoP2" class="accordion-collapse collapse" data-bs-parent="#acordeonP2">
+                                            <div class="accordion-body small">
+                                                <span>Editorial: Libros del Asteroide</span><br>
+                                                <span>ISBN: 9788410178595</span><br>
+                                                <span>Páginas: 248</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imgs/libro3.webp" class="card-img-top" alt="Producto 3">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">LA PENÍNSULA DE LAS CASAS VACÍAS</h5>
+                                <p class="card-text mb-1">David Uclés</p>
+                                <p class="card-text fw-bold text-primary">22,00 €</p>
+                                <p class="card-text small text-muted">La gran novela sobre la España vaciada y el realismo mágico.</p>
+
+                                <div class="accordion accordion-flush" id="acordeonP3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infoP3">
+                                                Más información
+                                            </button>
+                                        </h2>
+                                        <div id="infoP3" class="accordion-collapse collapse" data-bs-parent="#acordeonP3">
+                                            <div class="accordion-body small">
+                                                <span>Editorial: Siruela</span><br>
+                                                <span>ISBN: 9788419942319</span><br>
+                                                <span>Páginas: 700</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imgs/libro4.webp" class="card-img-top" alt="Producto 4">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">HAMNET</h5>
+                                <p class="card-text mb-1">Maggie O'Farrell</p>
+                                <p class="card-text fw-bold text-primary">20,90 €</p>
+                                <p class="card-text small text-muted">La historia del hijo de Shakespeare.</p>
+
+                                <div class="accordion accordion-flush" id="acordeonP4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infoP4">
+                                                Más información
+                                            </button>
+                                        </h2>
+                                        <div id="infoP4" class="accordion-collapse collapse" data-bs-parent="#acordeonP4">
+                                            <div class="accordion-body small">
+                                                <span>Editorial: Concha Cardeñoso</span><br>
+                                                <span>ISBN: 9788410178779</span><br>
+                                                <span>Páginas: 368</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="../imgs/libro5.webp" class="card-img-top" alt="Producto 5">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">MAMÁ ESTÁ DORMIDA</h5>
+                                <p class="card-text mb-1">Máximo Huerta</p>
+                                <p class="card-text fw-bold text-primary">17,95 €</p>
+                                <p class="card-text small text-muted">Un viaje emocional hacia la infancia.</p>
+
+                                <div class="accordion accordion-flush" id="acordeonP5">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#infoP5">
+                                                Más información
+                                            </button>
+                                        </h2>
+                                        <div id="infoP5" class="accordion-collapse collapse" data-bs-parent="#acordeonP5">
+                                            <div class="accordion-body small">
+                                                <span>Editorial: Planeta</span><br>
+                                                <span>ISBN: 9788408314134</span><br>
+                                                <span>Páginas: 352</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-4 mt-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4"><p class="small mb-0">© 2026 Lecturas Infinitas</p></div>
+                <div class="col-md-4">
+                    <a href="#" class="small text-white mx-2">Política de datos</a>
+                    <a href="#" class="small text-white mx-2">Contáctanos</a>
+                </div>
+                <div class="col-md-4"><p class="small mb-0">Servicio atención al cliente</p></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
